@@ -1,0 +1,11 @@
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\bin\Debug\net8.0\MyProject.deps.json
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\bin\Debug\net8.0\MyProject.dll
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\bin\Debug\net8.0\MyProject.pdb
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\MyProject.AssemblyInfoInputs.cache
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\MyProject.AssemblyInfo.cs
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\MyProject.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\MyProject.dll
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\refint\MyProject.dll
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\MyProject.pdb
+D:\Accenture\Projects\ConsoleAppDotNetC1\MyProject\obj\Debug\net8.0\ref\MyProject.dll

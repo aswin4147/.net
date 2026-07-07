@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ATMWithdrawal/ATMWithdrawal.csproj" Id="b63f2942-5566-47de-a6d5-a146f55c6d91" />
+  <Project Path="ATMWithdrawalTest/ATMWithdrawalTest.csproj" Id="941f8c49-79ec-4884-b70c-b97354e6db8e" />
+  <Project Path="GradeCalculator/GradeCalculator.csproj" />
+  <Project Path="GradeCalculatorTest/GradeCalculatorTest.csproj" />
+  <Project Path="NunitLearnProjects/NunitLearnProjects.csproj" />
+</Solution>

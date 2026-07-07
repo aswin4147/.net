@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Accenture\\Projects\\NunitLearnProjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{941F8C49-79EC-4884-B70C-B97354E6DB8E}|ATMWithdrawalTest\\ATMWithdrawalTest.csproj|d:\\accenture\\projects\\nunitlearnprojects\\atmwithdrawaltest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941F8C49-79EC-4884-B70C-B97354E6DB8E}|ATMWithdrawalTest\\ATMWithdrawalTest.csproj|solutionrelative:atmwithdrawaltest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B63F2942-5566-47DE-A6D5-A146F55C6D91}|ATMWithdrawal\\ATMWithdrawal.csproj|d:\\accenture\\projects\\nunitlearnprojects\\atmwithdrawal\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B63F2942-5566-47DE-A6D5-A146F55C6D91}|ATMWithdrawal\\ATMWithdrawal.csproj|solutionrelative:atmwithdrawal\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "D:\\Accenture\\Projects\\NunitLearnProjects\\ATMWithdrawal\\ATM.cs",
+              "RelativeDocumentMoniker": "ATMWithdrawal\\ATM.cs",
+              "ToolTip": "D:\\Accenture\\Projects\\NunitLearnProjects\\ATMWithdrawal\\ATM.cs",
+              "RelativeToolTip": "ATMWithdrawal\\ATM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T05:01:20.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Accenture\\Projects\\NunitLearnProjects\\ATMWithdrawalTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ATMWithdrawalTest\\UnitTest1.cs",
+              "ToolTip": "D:\\Accenture\\Projects\\NunitLearnProjects\\ATMWithdrawalTest\\UnitTest1.cs*",
+              "RelativeToolTip": "ATMWithdrawalTest\\UnitTest1.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T05:03:30.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

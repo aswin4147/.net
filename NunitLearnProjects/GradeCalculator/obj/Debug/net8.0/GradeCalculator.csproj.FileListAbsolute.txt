@@ -1,0 +1,11 @@
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\bin\Debug\net8.0\GradeCalculator.deps.json
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\bin\Debug\net8.0\GradeCalculator.dll
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\bin\Debug\net8.0\GradeCalculator.pdb
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\GradeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\GradeCalculator.AssemblyInfoInputs.cache
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\GradeCalculator.AssemblyInfo.cs
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\GradeCalculator.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\GradeCalculator.dll
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\refint\GradeCalculator.dll
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\GradeCalculator.pdb
+D:\Accenture\Projects\NunitLearnProjects\GradeCalculator\obj\Debug\net8.0\ref\GradeCalculator.dll

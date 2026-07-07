@@ -1,0 +1,11 @@
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\bin\Debug\net8.0\ControlStatements.deps.json
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\bin\Debug\net8.0\ControlStatements.dll
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\bin\Debug\net8.0\ControlStatements.pdb
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ControlStatements.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ControlStatements.AssemblyInfoInputs.cache
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ControlStatements.AssemblyInfo.cs
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ControlStatements.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ControlStatements.dll
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\refint\ControlStatements.dll
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ControlStatements.pdb
+D:\Accenture\Projects\ConsoleAppDotNetC1\ControlStatements\obj\Debug\net8.0\ref\ControlStatements.dll

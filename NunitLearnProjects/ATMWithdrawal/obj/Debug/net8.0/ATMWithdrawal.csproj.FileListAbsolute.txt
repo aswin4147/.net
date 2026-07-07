@@ -1,0 +1,11 @@
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\bin\Debug\net8.0\ATMWithdrawal.deps.json
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\bin\Debug\net8.0\ATMWithdrawal.dll
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\bin\Debug\net8.0\ATMWithdrawal.pdb
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ATMWithdrawal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ATMWithdrawal.AssemblyInfoInputs.cache
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ATMWithdrawal.AssemblyInfo.cs
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ATMWithdrawal.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ATMWithdrawal.dll
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\refint\ATMWithdrawal.dll
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ATMWithdrawal.pdb
+D:\Accenture\Projects\NunitLearnProjects\ATMWithdrawal\obj\Debug\net8.0\ref\ATMWithdrawal.dll

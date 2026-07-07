@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConsoleAppDotNetC1/ConsoleAppDotNetC1.csproj" />
+  <Project Path="ControlStatements/ControlStatements.csproj" Id="28241465-fb4c-4a63-98bc-75bfd077840a" />
+  <Project Path="MyProject/MyProject.csproj" Id="62bf4146-c1f1-4948-95f6-5aeb3e233d9c" />
+  <Project Path="Stuff/Stuff.csproj" Id="3c9dfb59-1573-4bfc-820f-ff9e5c7c334a" />
+</Solution>

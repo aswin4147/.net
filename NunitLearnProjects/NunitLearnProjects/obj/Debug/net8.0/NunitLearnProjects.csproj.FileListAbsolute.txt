@@ -1,0 +1,14 @@
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\bin\Debug\net8.0\NunitLearnProjects.exe
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\bin\Debug\net8.0\NunitLearnProjects.deps.json
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\bin\Debug\net8.0\NunitLearnProjects.runtimeconfig.json
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\bin\Debug\net8.0\NunitLearnProjects.dll
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\bin\Debug\net8.0\NunitLearnProjects.pdb
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.AssemblyInfoInputs.cache
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.AssemblyInfo.cs
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.dll
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\refint\NunitLearnProjects.dll
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.pdb
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\NunitLearnProjects.genruntimeconfig.cache
+D:\Accenture\Projects\NunitLearnProjects\NunitLearnProjects\obj\Debug\net8.0\ref\NunitLearnProjects.dll
