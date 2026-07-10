@@ -1,0 +1,15 @@
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\bin\Debug\net8.0\CafeteriaApp.exe
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\bin\Debug\net8.0\CafeteriaApp.deps.json
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\bin\Debug\net8.0\CafeteriaApp.runtimeconfig.json
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\bin\Debug\net8.0\CafeteriaApp.dll
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\bin\Debug\net8.0\CafeteriaApp.pdb
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.AssemblyInfoInputs.cache
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.AssemblyInfo.cs
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.sourcelink.json
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.dll
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\refint\CafeteriaApp.dll
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.pdb
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\CafeteriaApp.genruntimeconfig.cache
+D:\Accenture\Projects\CafeteriaApp\CafeteriaApp\obj\Debug\net8.0\ref\CafeteriaApp.dll

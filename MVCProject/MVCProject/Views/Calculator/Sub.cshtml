@@ -1,0 +1,14 @@
+﻿@model MVCProject.Models.Model
+@{
+
+}
+
+<h1>hello world</h1>
+<form method="post" action="sub">
+    Enter y1
+    <input type="number" asp-for="x" />
+    Enter y2
+    <input type="number" asp-for="y" />
+    <input type="submit" value="add" />
+</form>
+<h3>@TempData["result"]</h3>

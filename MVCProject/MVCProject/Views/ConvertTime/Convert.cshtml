@@ -1,0 +1,11 @@
+﻿@model MVCProject.Models.TimeModel
+@{
+}
+<h1>
+    Welcome to the convertion of Hours to Seconds<h1 />
+    <form method="post" action="convert">
+        How many hours do u waste: 
+        <input type="number" asp-for="hour" />
+        <input type="submit" />
+    </form>
+    <h3>You waste this much time in seconds @ViewData["result"]</h3>

@@ -1,0 +1,23 @@
+﻿@model MVCProject.Models.MyValues
+@{
+}
+<h1>Welcome to the convertion of Hours to Seconds<h1/>
+    <form method="post" action="whiskey">
+        <select name="selection">
+            <option value = "kmtometre">Convert km to metre</option>
+            <option value = "hourtosecond">Convert hour to second</option>
+            <option value = "feettoinch">Convert feet to inch</option>
+        </select>
+
+        <input type = "number" asp-for = "input"/>
+
+        <input type="submit" value="check"/>
+    </form>
+    @if (ViewData["result"] != null)
+    {
+        <h3>You Converted @ViewData["input"] @ViewData["from"] to @ViewData["result"] @ViewData["to"]</h3>
+    }
+    else
+    {
+        <h3>Nothing to see here. Do something</h3>
+    }

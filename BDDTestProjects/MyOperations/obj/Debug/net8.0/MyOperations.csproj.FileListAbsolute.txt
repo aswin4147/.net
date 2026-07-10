@@ -191,3 +191,4 @@ D:\Accenture\Projects\BDDTestProjects\MyOperations\obj\Debug\net8.0\refint\MyOpe
 D:\Accenture\Projects\BDDTestProjects\MyOperations\obj\Debug\net8.0\MyOperations.pdb
 D:\Accenture\Projects\BDDTestProjects\MyOperations\obj\Debug\net8.0\MyOperations.genruntimeconfig.cache
 D:\Accenture\Projects\BDDTestProjects\MyOperations\obj\Debug\net8.0\ref\MyOperations.dll
+D:\Accenture\Projects\BDDTestProjects\MyOperations\obj\Debug\net8.0\MyOperations.sourcelink.json

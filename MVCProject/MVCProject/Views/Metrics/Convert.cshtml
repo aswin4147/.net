@@ -1,0 +1,10 @@
+﻿@model MVCProject.Models.MetricsModel
+@{
+}
+<h1>Welcome to the convertion of km to metre<h1/>
+    <form method="post" action="convert">
+        Enter in km
+        <input type="number" asp-for="km" />
+        <input type="submit"/>
+    </form>
+    <h3>After conversion in metre = @ViewData["result"]</h3>
