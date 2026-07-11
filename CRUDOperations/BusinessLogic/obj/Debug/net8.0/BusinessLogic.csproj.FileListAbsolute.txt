@@ -1,0 +1,15 @@
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+D:\Accenture\Projects\CRUDOperations\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
