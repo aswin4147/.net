@@ -1,0 +1,52 @@
+﻿@model LearningEFCore.Models.EmployeeData
+
+@{}
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm">
+
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0">Edit Employee Details</h4>
+                </div>
+
+                <div class="card-body">
+
+                    <form asp-action="EmployeeEdit" method="post">
+
+                        <input type="hidden" asp-for="EmpID" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input asp-for="Name" class="form-control" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input asp-for="Email" class="form-control" type="email" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input asp-for="Password" class="form-control" type="password" required />
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">Date of Birth</label>
+                            <input asp-for="Dob" class="form-control" type="date" required />
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button asp-action="EmployeeEdit" type="submit" class="btn btn-warning">Save Changes</button>
+                            <a href="/Employee/EmployeeDisplay" class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

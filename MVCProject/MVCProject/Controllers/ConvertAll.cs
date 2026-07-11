@@ -3,14 +3,14 @@ using MVCProject.Models;
 
 namespace MVCProject.Controllers
 {
-    public class DivyamGayController : Controller
+    public class ConvertAll : Controller
     {
-        public IActionResult Whiskey()
+        public IActionResult Convert()
         {
             return View();
         }
         [HttpPost]
-        public IActionResult Whiskey(string selection, MyValues obj)
+        public IActionResult Convert(string selection, MyValues obj)
         {
             int result = 0;
 

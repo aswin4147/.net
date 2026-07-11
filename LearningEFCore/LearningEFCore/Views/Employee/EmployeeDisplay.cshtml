@@ -1,0 +1,50 @@
+﻿@model IEnumerable<LearningEFCore.Models.EmployeeData>
+
+@{
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Employee Profile</h4>
+                </div>
+
+                <div class="card-body">
+                    @foreach (var item in @Model)
+                    {
+                        <dl class="row mb-0">
+
+                            <dt class="col-sm-4 text-muted">Employee ID</dt>
+                            <dd class="col-sm-8 fw-bold">@item.EmpID</dd>
+
+                            <dt class="col-sm-4 text-muted">Full Name</dt>
+                            <dd class="col-sm-8">@item.Name</dd>
+
+                            <dt class="col-sm-4 text-muted">Email Address</dt>
+                            <dd class="col-sm-8">@item.Email</dd>
+
+                            <dt class="col-sm-4 text-muted">Date of Birth</dt>
+                            <dd class="col-sm-8">@item.Dob.ToString("MMMM dd, yyyy")</dd>
+
+                            <dt class="col-sm-4 text-muted">Password</dt>
+                            <dd class="col-sm-8">
+                                ******** <small class="text-muted d-block">(Hidden for security)</small>
+                            </dd>
+
+                        </dl>
+                        <div class="card-footer text-end bg-light">
+                            <a asp-action="EmployeeEdit" asp-route-EmpID = "@item.EmpID" class="btn btn-outline-secondary">Edit</a>
+                            <a asp-action="EmployeeDelete" asp-route-EmpID="@item.EmpID" class="btn btn-outline-secondary">Delete</a>
+                        </div>
+                    }
+                </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+</div>
