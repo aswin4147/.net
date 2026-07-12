@@ -15,6 +15,7 @@ namespace CRUDOperations
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<AppDb>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IUserRepo, UserRepo>();
+            builder.Services.AddScoped<IProductRepo, ProductRepo>();
 
             var app = builder.Build();
 

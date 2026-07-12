@@ -1,0 +1,56 @@
+﻿<!-- Make sure to change 'YourNamespace' to your actual project's namespace! -->
+@model BusinessLogic.Models.ProductData
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm border-warning">
+
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0">Edit Product Details</h4>
+                </div>
+
+                <div class="card-body">
+
+                    <!-- asp-action tells the form to POST to the EditProduct method in your controller -->
+                    <form asp-action="UpdateProduct" method="post">
+
+                        <!-- CRITICAL: The hidden ID field so the database knows WHICH product to update -->
+                        <input type="hidden" asp-for="Id" />
+
+                        <!-- Product Name -->
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label text-muted fw-bold">Product Name</label>
+                            <input asp-for="Name" class="form-control" required />
+                        </div>
+
+                        <!-- Price -->
+                        <div class="mb-3">
+                            <label asp-for="Price" class="form-label text-muted fw-bold">Price ($)</label>
+                            <!-- The tag helper will automatically fill in the existing price -->
+                            <input asp-for="Price" type="number" step="0.01" min="0" class="form-control" required />
+                        </div>
+
+                        <!-- Stock Quantity -->
+                        <div class="mb-4">
+                            <label asp-for="Stock" class="form-label text-muted fw-bold">Stock Quantity</label>
+                            <input asp-for="Stock" type="number" min="0" class="form-control" required />
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-warning">Save Changes</button>
+                            <a asp-action="DisplayProducts"  class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

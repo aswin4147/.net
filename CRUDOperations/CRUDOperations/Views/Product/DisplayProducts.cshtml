@@ -1,0 +1,63 @@
+﻿<!-- Make sure to change 'YourNamespace' to your actual project's namespace! -->
+@model IEnumerable<BusinessLogic.Models.ProductData>
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm border-info">
+
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">Product Information</h4>
+                </div>
+                @if (Model != null)
+                {
+                    @foreach(var item in @Model)
+                    {
+                        <div class="card-body">
+                            <dl class="row mb-0">
+
+                                <dt class="col-sm-4 text-muted">Product ID</dt>
+                                <dd class="col-sm-8 fw-bold">@item.Id</dd>
+
+                                <dt class="col-sm-4 text-muted">Name</dt>
+                                <dd class="col-sm-8">@item.Name</dd>
+
+                                <dt class="col-sm-4 text-muted">Price</dt>
+                                <!-- .ToString("C") formats the decimal into your local currency (e.g., $99.99) -->
+                                <dd class="col-sm-8 text-success fw-bold">@item.Price.ToString("C")</dd>
+
+                                <dt class="col-sm-4 text-muted">Availability</dt>
+                                <dd class="col-sm-8">
+                                    <!-- Mixing C# logic with HTML to dynamically style the stock status -->
+                                    @if (item.Stock > 0)
+                                    {
+                                        <span class="badge bg-success">@item.Stock in stock</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">Out of Stock</span>
+                                    }
+                                </dd>
+                                <div class="card-footer text-end bg-light">
+                                    <!-- Standard navigation buttons -->
+                                    <a asp-action="DeleteProduct" asp-route-Id="@item.Id" class="btn btn-outline-secondary">Delete</a>
+                                    <a asp-action="EditProduct" asp-route-Id="@item.Id" class="btn btn-warning">Edit Product</a>
+                                </div>
+
+                            </dl>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <span class="badge bg-danger">Nothing to see here</span>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
