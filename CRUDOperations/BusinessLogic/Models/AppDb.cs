@@ -15,5 +15,7 @@ namespace BusinessLogic.Models
 
         public DbSet<UserData> UserTable { get; set; }
         public DbSet<ProductData> ProductTable { get; set; }
+        public DbSet<RestaurantOrder> RestaurantOrders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }
