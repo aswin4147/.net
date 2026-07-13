@@ -1,0 +1,63 @@
+﻿<!-- Make sure to change 'YourNamespace' to your actual project's namespace! -->
+@model IEnumerable<BusinessLogic.Models.BookData>
+
+@{
+    ViewData["Title"] = "Book Library";
+}
+
+<div class="container mt-5">
+
+    <!-- Header area with Title and Add Button -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>📚 Book Library</h2>
+        <a asp-action="AddBook" class="btn btn-success">+ Add New Book</a>
+    </div>
+
+    <!-- The Data Table -->
+    <div class="card shadow-sm border-success">
+        <div class="card-body p-0">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-success">
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        @* <th class="text-end">Actions</th> *@
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @if (Model != null && Model.Any())
+                    {
+                        @foreach (var book in Model)
+                        {
+                            <tr>
+                                <td class="text-muted">@book.Id</td>
+                                <td class="fw-bold">@book.Title</td>
+                                <td>@book.Author</td>
+
+                                <!-- .ToString("C") automatically formats the decimal as local currency -->
+                                <td class="text-success fw-bold">@book.Price.ToString("C")</td>
+
+                                @* <td class="text-end">
+                                    <!-- The Edit button passes the ID directly to your Controller method -->
+                                    <a asp-action="EditBook" asp-route-id="@book.Id" class="btn btn-sm btn-warning">Edit</a>
+                                </td> *@
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center py-4 text-muted fs-5">
+                                No books found in the library. Click "Add New Book" to get started!
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

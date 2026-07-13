@@ -1,0 +1,50 @@
+﻿@model BusinessLogic.Models.RestaurantOrder
+@{
+    ViewData["Title"] = "Find Order Total";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form asp-action="SearchOrder" method="get" class="d-flex">
+                <input type="number" name="searchId" class="form-control me-2" placeholder="Enter Order ID" required />
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </div>
+
+    @if (Model != null)
+    {
+        <div class="card border-success shadow">
+            <div class="card-header bg-success text-white">
+                <h4 class="mb-0">Order Found: Ticket #@Model.Id</h4>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-6"><span class="text-muted">Table Number:</span> <span class="fw-bold">@Model.TableNumber</span></div>
+                    <div class="col-6"><span class="text-muted">Server:</span> <span>@Model.ServerName</span></div>
+                </div>
+
+                <h5 class="border-bottom pb-2">Receipt</h5>
+                <ul class="list-group list-group-flush mb-3">
+                    @foreach (var item in Model.OrderItems)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span>@item.Quantity x @item.FoodItem</span>
+                            <span>@((item.Price * item.Quantity).ToString("C"))</span>
+                        </li>
+                    }
+                </ul>
+
+                <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                    <h4 class="text-muted mb-0">Total Bill</h4>
+                    <h3 class="text-success fw-bold mb-0">@Model.TotalPrice.ToString("C")</h3>
+                </div>
+            </div>
+        </div>
+    }
+    else if (Context.Request.Query.ContainsKey("searchId"))
+    {
+        <div class="alert alert-danger">❌ Order not found. Please check the ID and try again.</div>
+    }
+</div>

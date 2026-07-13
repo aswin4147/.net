@@ -1,0 +1,63 @@
+﻿<!-- Make sure to change 'YourNamespace' to your actual project's namespace! -->
+@model IEnumerable<BusinessLogic.Models.MovieDetails>
+
+@{
+    ViewData["Title"] = "Movie Library";
+}
+
+<div class="container mt-5">
+
+    <!-- Header area with Title and Add Button -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>🎬 Movie Library</h2>
+        <a asp-action="AddMovie" class="btn btn-primary">+ Add New Movie</a>
+    </div>
+
+    <!-- The Data Table -->
+    <div class="card shadow-sm border-primary">
+        <div class="card-body p-0">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-primary">
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Director</th>
+                        <th>Price</th>
+                        @* <th class="text-end">Actions</th> *@
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @if (Model != null && Model.Any())
+                    {
+                        @foreach (var movie in Model)
+                        {
+                            <tr>
+                                <td class="text-muted">@movie.Id</td>
+                                <td class="fw-bold">@movie.Title</td>
+                                <td>@movie.Director</td>
+
+                                <!-- .ToString("C") automatically formats the decimal as local currency -->
+                                <td class="text-success fw-bold">@movie.Price.ToString("C")</td>
+
+                                @* <td class="text-end">
+                                    <!-- The Edit button passes the ID directly to your Controller method -->
+                                    <a asp-action="EditMovie" asp-route-id="@movie.Id" class="btn btn-sm btn-warning">Edit</a>
+                                </td> *@
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center py-4 text-muted fs-5">
+                                No movies found in the library. Click "Add New Movie" to get started!
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -17,6 +17,8 @@ namespace CRUDOperations
             builder.Services.AddScoped<IUserRepo, UserRepo>();
             builder.Services.AddScoped<IProductRepo, ProductRepo>();
             builder.Services.AddScoped<IRestaurantOrderRepo, RestaurantOrderRepo>();
+            builder.Services.AddScoped<IMovieRepo, MovieRepo>();
+            builder.Services.AddScoped<IBookRepo, BookRepo>();
 
             var app = builder.Build();
 
