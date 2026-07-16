@@ -1,0 +1,37 @@
+﻿<!-- Views/Shared/_Layout.cshtml -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CRUDOperations</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CRUDOperations.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!-- 1. The Global Navigation Bar -->
+    <header>
+        <nav class="navbar bg-primary navbar-dark">
+            <a class="navbar-brand" href="/">LibraryApp</a>
+        </nav>
+    </header>
+
+    <!-- 2. The Magic Placeholder -->
+    <div class="container mt-4">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- 3. The Global Footer -->
+    <footer class="text-center mt-5 text-muted">
+        &copy; 2026 - My Library System
+    </footer>
+
+    <!-- 4. A placeholder for page-specific JavaScript -->
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
