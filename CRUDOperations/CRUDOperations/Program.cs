@@ -1,6 +1,7 @@
 using BusinessLogic.IRepo;
 using BusinessLogic.Models;
 using BusinessLogic.Repo;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 namespace CRUDOperations
@@ -27,10 +28,20 @@ namespace CRUDOperations
                 options.Cookie.IsEssential = true;
             });
 
+            // adding authentication
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+            {
+                options.LoginPath = "/Book/Login";
+                options.AccessDeniedPath = "/Book/ViewBooks";
+            });
+
 
             var app = builder.Build();
 
             app.UseSession();
+
+            app.UseAuthentication();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

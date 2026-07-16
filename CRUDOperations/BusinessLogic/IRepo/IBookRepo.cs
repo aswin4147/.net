@@ -12,5 +12,6 @@ namespace BusinessLogic.IRepo
         public Task AddBookAsync(BookData book);
         public Task<IEnumerable<BookData>> GetBookDataAsync();
         public Task AddUserAsync(BookLogin user);
+        public Task<BookLogin> GetUserAsync(string email, string password);
     }
 }

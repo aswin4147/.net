@@ -34,5 +34,10 @@ namespace BusinessLogic.Repo
             await _db.BookUser.AddAsync(user);
             await _db.SaveChangesAsync();
         }
+
+        public async Task<BookLogin> GetUserAsync(string email, string password)
+        {
+            return await _db.BookUser.FirstOrDefaultAsync(x => x.Email == email && x.Password == password);
+        }
     }
 }
