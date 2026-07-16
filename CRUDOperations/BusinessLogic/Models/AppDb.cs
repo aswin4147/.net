@@ -19,5 +19,6 @@ namespace BusinessLogic.Models
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<MovieDetails> MovieTable { get; set; }
         public DbSet<BookData> BookTable { get; set; }
+        public DbSet<BookLogin> BookUser { get; set; }
     }
 }
