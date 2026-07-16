@@ -28,5 +28,11 @@ namespace BusinessLogic.Repo
             var res = await _db.BookTable.ToListAsync();
             return res;
         }
+
+        public async Task AddUserAsync(BookLogin user)
+        {
+            await _db.BookUser.AddAsync(user);
+            await _db.SaveChangesAsync();
+        }
     }
 }

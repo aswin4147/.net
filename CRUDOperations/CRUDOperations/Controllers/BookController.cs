@@ -30,5 +30,25 @@ namespace CRUDOperations.Controllers
             var data = await _repo.GetBookDataAsync();
             return View(data);
         }
+
+        [HttpGet]
+        public IActionResult AddUser()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddUser(BookLogin user)
+        {
+            await _repo.AddUserAsync(user);
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
     }
 }

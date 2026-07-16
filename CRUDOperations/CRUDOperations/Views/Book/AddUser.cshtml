@@ -1,0 +1,68 @@
+﻿@model BusinessLogic.Models.BookLogin
+
+@{
+    ViewData["Title"] = "Register New User";
+}
+
+<div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+        <h2>Register</h2>
+        <hr />
+
+        <form asp-action="AddUser" method="post">
+            <!-- Shows a summary of all validation errors at the top -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Name Input -->
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label">Full Name</label>
+                <input asp-for="Name" class="form-control" placeholder="John Doe" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label">Email Address</label>
+                <input asp-for="Email" type="email" class="form-control" placeholder="name@example.com" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <!-- Role Dropdown -->
+            <div class="form-group mb-3">
+                <label asp-for="Role" class="control-label">Account Role</label>
+                <select asp-for="Role" class="form-select">
+                    <option value="User" selected>User</option>
+                    <option value="Admin">Admin</option>
+                </select>
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="control-label">Password</label>
+                <!-- type="password" ensures the characters are hidden as dots -->
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <!-- Confirm Password Input -->
+            <div class="form-group mb-3">
+                <label asp-for="ConfirmPassword" class="control-label">Confirm Password</label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary w-100">Create Account</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Enable Client-Side Validation -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

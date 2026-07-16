@@ -35,6 +35,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Accenture/Projects/CRUDOperations/CRUDOperations/Views/Book/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Accenture/Projects/CRUDOperations/CRUDOperations/Views/Book/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Accenture/Projects/CRUDOperations/CRUDOperations/Views/Book/ViewBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xWaWV3Qm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
