@@ -23,6 +23,7 @@
                         <th>Title</th>
                         <th>Author</th>
                         <th>Price</th>
+                        <th>Status</th>
                         @* <th class="text-end">Actions</th> *@
                     </tr>
                 </thead>
@@ -32,19 +33,7 @@
                     {
                         @foreach (var book in Model)
                         {
-                            <tr>
-                                <td class="text-muted">@book.Id</td>
-                                <td class="fw-bold">@book.Title</td>
-                                <td>@book.Author</td>
-
-                                <!-- .ToString("C") automatically formats the decimal as local currency -->
-                                <td class="text-success fw-bold">@book.Price.ToString("C")</td>
-
-                                @* <td class="text-end">
-                                    <!-- The Edit button passes the ID directly to your Controller method -->
-                                    <a asp-action="EditBook" asp-route-id="@book.Id" class="btn btn-sm btn-warning">Edit</a>
-                                </td> *@
-                            </tr>
+                            <partial name="_ViewBookPartial" model="book"></partial>
                         }
                     }
                     else

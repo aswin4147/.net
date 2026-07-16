@@ -1,0 +1,28 @@
+﻿@model BusinessLogic.Models.BookData
+@{
+}
+
+
+<tr>
+    <td class="text-muted">@Model.Id</td>
+    <td class="fw-bold">@Model.Title</td>
+    <td>@Model.Author</td>
+
+    <!-- .ToString("C") automatically formats the decimal as local currency -->
+    <td class="text-success fw-bold">@Model.Price.ToString("C")</td>
+    <td class="text-error fw-bold">
+        @if (Model.IsRented)
+        {
+            <p>Rented</p>
+        }
+        else
+        {
+            <p>Available</p>
+        }
+    </td>
+
+    @* <td class="text-end">
+                            <!-- The Edit button passes the ID directly to your Controller method -->
+                            <a asp-action="EditBook" asp-route-id="@book.Id" class="btn btn-sm btn-warning">Edit</a>
+                        </td> *@
+</tr>
