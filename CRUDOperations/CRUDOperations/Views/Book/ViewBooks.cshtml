@@ -12,6 +12,9 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2>📚 Book Library</h2>
         <a asp-action="AddBook" class="btn btn-success">+ Add New Book</a>
+        <form asp-controller="Book" asp-action="Logout" method="post" class="d-inline">
+            <button type="submit" class="btn btn-link nav-link text-dark">Logout</button>
+        </form>
     </div>
 
     <!-- The Data Table -->
