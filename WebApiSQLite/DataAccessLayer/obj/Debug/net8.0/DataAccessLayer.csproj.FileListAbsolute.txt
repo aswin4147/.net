@@ -1,0 +1,15 @@
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Accenture\Projects\WebApiSQLite\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

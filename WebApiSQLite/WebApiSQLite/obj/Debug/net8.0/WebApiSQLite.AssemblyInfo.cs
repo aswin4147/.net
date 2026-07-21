@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiSQLite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc63cdcddb2334cb0803be3277e75956f6a755e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e95f3ed3209738e1c9d94b43f571fcbea85ef470")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiSQLite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiSQLite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
