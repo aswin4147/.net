@@ -32,9 +32,14 @@ namespace CRUDOperations
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
             {
                 options.LoginPath = "/Book/Login";
-                options.AccessDeniedPath = "/Book/ViewBooks";
+                options.AccessDeniedPath = "/Book/Login";
             });
 
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminOnly", policy =>
+            policy.RequireRole("Admin"));
+            });
 
             var app = builder.Build();
 

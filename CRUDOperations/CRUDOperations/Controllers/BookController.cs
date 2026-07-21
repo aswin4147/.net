@@ -19,7 +19,7 @@ namespace CRUDOperations.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "AdminOnly")]
         public IActionResult AddBook()
         {
             return View();
@@ -95,6 +95,5 @@ namespace CRUDOperations.Controllers
 
             return RedirectToAction("Login");
         }
-
     }
 }

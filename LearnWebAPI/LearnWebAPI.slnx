@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LearnWebAPI/LearnWebAPI.csproj" />
+  <Project Path="Service/Service.csproj" />
+</Solution>
