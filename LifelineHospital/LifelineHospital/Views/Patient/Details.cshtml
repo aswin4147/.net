@@ -1,0 +1,45 @@
+﻿@model BusinessLogic.Models.Patient
+@{
+    ViewData["Title"] = "Patient Details";
+}
+
+<h2>Patient Details</h2>
+<hr />
+
+<div class="card mb-4 shadow-sm">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Patient ID</dt>
+            <dd class="col-sm-9">@Model.PatientId</dd>
+
+            <dt class="col-sm-3">Full Name</dt>
+            <dd class="col-sm-9">@Model.PatientName</dd>
+
+            <dt class="col-sm-3">Date of Birth</dt>
+            <dd class="col-sm-9">@Model.DateOfBirth.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Contact Number</dt>
+            <dd class="col-sm-9">@Model.ContactNo</dd>
+        </dl>
+    </div>
+</div>
+
+<h4>Appointment History</h4>
+@if (Model.Appointments != null && Model.Appointments.Any())
+{
+    <ul class="list-group col-md-6 mb-3">
+        @foreach (var appt in Model.Appointments)
+        {
+            <li class="list-group-item">
+                <strong>ID:</strong> @appt.AppointmentId |
+                <strong>Date & Time:</strong> @appt.AppointmentDate.ToString("g")
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <div class="alert alert-info col-md-6">No appointments scheduled for this patient.</div>
+}
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

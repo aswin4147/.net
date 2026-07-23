@@ -1,0 +1,45 @@
+﻿@model LifelineHospital.Models.Patient
+@{
+    ViewData["Title"] = "Add Patient";
+}
+
+<h2>Add New Patient</h2>
+<hr />
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="PatientName" class="form-label">Patient Name</label>
+                <input asp-for="PatientName" class="form-control" placeholder="Enter full name" />
+                <span asp-validation-for="PatientName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+                <input asp-for="DateOfBirth" type="date" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ContactNo" class="form-label">Contact Number</label>
+                <input asp-for="ContactNo" class="form-control" placeholder="10-digit mobile number" />
+                <span asp-validation-for="ContactNo" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success">Save Patient</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Back to List</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

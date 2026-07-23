@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BusinessLogic.Models.Patient>
+@{
+    ViewData["Title"] = "Patients List";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Patients List</h2>
+    <a asp-action="Create" class="btn btn-primary">Add New Patient</a>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Contact No</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PatientId</td>
+                    <td>@item.PatientName</td>
+                    <td>@item.DateOfBirth.ToShortDateString()</td>
+                    <td>@item.ContactNo</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.PatientId" class="btn btn-info btn-sm">View Details</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No patients found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
